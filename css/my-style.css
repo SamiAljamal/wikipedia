@@ -1,0 +1,28 @@
+body {
+  background-color: #f6f6f6;
+}
+
+.nav-sidebar {
+
+}
+
+.nav>li>a {
+  padding: 0px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.nav-indented li{
+  margin-left: 10px;
+}
