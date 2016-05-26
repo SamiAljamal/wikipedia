@@ -66,11 +66,11 @@ background: #f5faff;
 }
 
 .container-fluid img {
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 .featured-img {
-  margin: -10px 10px 20px 10px;
+  margin-right: -50px;
 }
 .middle .jumbotron {
   background: #ddcef2;
@@ -80,4 +80,17 @@ background: #f5faff;
   border: 1px solid #afa3bf;
   background: #faf5ff;
   margin-top: 10px;
+}
+
+.middle .col-md-9 {
+  padding-top: 150px;
+  padding-bottom:150px;
+}
+
+.white {
+  background-color: white;
+}
+
+.navbar {
+  margin-bottom: 0px;
 }
