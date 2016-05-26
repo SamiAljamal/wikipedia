@@ -6,7 +6,7 @@ body {
 
 }
 
-.nav>li>a {
+.sidebar .nav>li>a {
   padding: 0px;
 }
 
@@ -16,6 +16,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 1000;
+  width: 230px;
 }
 
 hr {
@@ -25,4 +26,58 @@ hr {
 
 .nav-indented li{
   margin-left: 10px;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+form {width: 300px;}
+
+.container .jumbotron, .container-fluid .jumbotron{
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+}
+
+.left {
+  border: 1px solid #cef2e0;
+  background: #f5fffa;
+}
+
+.left .jumbotron {
+  background: #cef2e0;
+  border: 1px solid #a3bfb1;
+}
+
+.right {
+  border: 1px solid #cedff2;
+background: #f5faff;
+}
+
+.right .jumbotron {
+  background: #cedff2;
+  border: 1px solid #a3b0bf;
+}
+
+.container-fluid p{
+  padding: 0 10px 10px 10px;
+}
+
+.container-fluid img {
+  padding: 10px;
+}
+
+.featured-img {
+  margin: -10px 10px 20px 10px;
+}
+.middle .jumbotron {
+  background: #ddcef2;
+
+}
+.middle{
+  border: 1px solid #afa3bf;
+  background: #faf5ff;
+  margin-top: 10px;
 }
